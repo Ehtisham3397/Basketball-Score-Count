@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score Count</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Home Score Board -->
+        <div class="home">
+            <h3>HOME</h3>
+            <div class="scoreboard">
+                <p id="score-home">0</p>
+            </div>
+            <div class="button">
+                <button class="count-btn" onclick="addHome1()">+1</button>
+                <button class="count-btn" onclick="addHome2()">+2</button>
+                <button class="count-btn" onclick="addHome3()">+3</button>
+            </div>
+        </div>
+
+        <!-- Guest Score Board -->
+        <div class="guest">
+            <h3>GUEST</h3>
+            <div class="scoreboard">
+                <p id="score-guest">0</p>
+            </div>
+            <div class="button">
+                <button class="count-btn" onclick="addGuest1()">+1</button>
+                <button class="count-btn" onclick="addGuest2()">+2</button>
+                <button class="count-btn" onclick="addGuest3()">+3</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Start a new Game -->
+    <div class="new-game">
+        <button class="btn-style" onclick="newGame()">NEW GAME</button>
+    </div>
+    
+</body>
+</html>
